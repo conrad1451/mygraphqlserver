@@ -1,0 +1,26 @@
+{
+  "name": "mygraphqlserver",
+  "version": "1.0.0",
+  "description": "This is my first GraphQL Server to learn how to use it in projects.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conrad1451/mygraphqlserver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/conrad1451/mygraphqlserver/issues"
+  },
+  "homepage": "https://github.com/conrad1451/mygraphqlserver#readme",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^5.1.0",
+    "graphql": "^16.11.0"
+  }
+}
